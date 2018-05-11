@@ -1,0 +1,8 @@
+@import "_mixins/font-face";
+
+@include font-face("playfair-display-italic", "../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic", italic);
+@include font-face("playfair-display-bolditalic", "../fonts/PlayfairDisplayBoldItalic/PlayfairDisplayBoldItalic", bold, italic);
+@include font-face("playfair-display-bold", "../fonts/PlayfairDisplayBold/PlayfairDisplayBold", bold);
+@include font-face("circe-regular", "../fonts/CirceRegular/CirceRegular", regular);
+@include font-face("circe-bold", "../fonts/CirceBold/CirceBold", bold);
+@include font-face("introscriptr", "../fonts/IntroScriptR/IntroScriptRH2Base", normal);

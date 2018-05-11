@@ -1,0 +1,21 @@
+.main-header {
+	position: relative;
+	width: 1220px;
+	
+	display: flex;
+
+	margin: 60px auto 20px;
+	padding: 0;
+	color: $text;
+
+	&__logo {
+		margin-right: 45px;
+		font-family: $alter-font, serif;
+		font-size: 24px;
+		line-height: 33px;
+
+	}
+	&__nav {
+		margin-right: 250px;
+	}
+}
