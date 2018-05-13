@@ -1,27 +1,28 @@
 .site-menu {
 	position: relative;
 	width: 745px;
-	
+
 	margin: 0;
 	padding: 0;
-	
+
 	list-style: none;
 
 	display: flex;
 	justify-content: space-between;
-	
+
 	&__item {
-		font-family: "circe", serif;
+		font-family: $default-font, serif;
 		font-size: 13px;
-		line-height: 27px;
+		line-height: 32px;
 		text-transform: uppercase;
-		
-		a {
-			color: $text;
-		}
+
+		// a {
+		//
+		// }
 	}
 
 	&__link {
 		text-decoration: none;
+		color: $text;
 	}
 }
