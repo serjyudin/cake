@@ -21,53 +21,67 @@
 
 <body>
 	<header class="main-header">
-		<a class="main-header__logo" href="#">Cakes</a>
-		<nav class="main-nav main-header__nav">
-			<ul class="main-nav__menu site-menu">
-				<li class="site-menu__item">
-					<a class="site-menu__link" href="#">Наши торты</a>
-				</li>
-				<li class="site-menu__item site-menu__item--active">
-					<a class="site-menu__link" href="#">Индивидуальный заказ</a>
-				</li>
-				<li class="site-menu__item">
-					<a class="site-menu__link" href="#">Отзывы</a>
-				</li>
-				<li class="site-menu__item">
-					<a class="site-menu__link" href="#">О нас</a>
-				</li>
-				<li class="site-menu__item">
-					<a class="site-menu__link" href="#">Как заказать</a>
-				</li>
-				<li class="site-menu__item">
-					<a class="site-menu__link" href="#">Контакты</a>
-				</li>
-			</ul>
-		</nav>
-		<a class="main-header__phone-mobile" href="tel:+79068999296">+7 956 899-92-96</a>
+		<div class="main-header__wrapper">
+			<a class="main-header__logo" href="#">Cakes</a>
+			<nav class="main-nav">
+				<ul class="main-nav__menu site-menu">
+					<li class="site-menu__item">
+						<a class="site-menu__link" href="#">Наши торты</a>
+					</li>
+					<li class="site-menu__item site-menu__item--active">
+						<a class="site-menu__link" href="#">Индивидуальный заказ</a>
+					</li>
+					<li class="site-menu__item">
+						<a class="site-menu__link" href="#">Отзывы</a>
+					</li>
+					<li class="site-menu__item">
+						<a class="site-menu__link" href="#">О нас</a>
+					</li>
+					<li class="site-menu__item">
+						<a class="site-menu__link" href="#">Как заказать</a>
+					</li>
+					<li class="site-menu__item">
+						<a class="site-menu__link" href="#">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<a class="main-header__phone-mobile" href="tel:+79068999296">+7 956 899 92 96</a>
+		</div>
 	</header>
 	<main class="page-main">
 		<section class="page-heading">
-			<h1 class="page-heading__title">Торты на заказ</h1>
-			<span class="page-heading__slogan">Ручная работа</span>
-			<a href="" class="page-heading__to-cake btn">Выбрать торт</a>
-			<p class="page-heading__description-advantages description-advantages">
-				<b class="description-advantages__text">Натуральные ингридиенты</b>
-			</p>
-			<p class="page-heading__description-advantages description-advantages">
-				<b class="description-advantages__text">Доставка бесплатно при заказе от 2000 рублей<sup>*</sup>
-				</b>
-			</p>
-			<div class="page-heading_img-cake">
-				<img src="img/heading_cake.png" alt="Тортс макарунами и фруктами">
+			<div class="page-heading__wrapper">
+				<h1 class="page-heading__title">Торты на заказ</h1>
+				<span class="page-heading__slogan">Ручная работа</span>
+				<a href="" class="page-heading__to-cake btn btn--size-m">Выбрать торт</a>
+				<div class="page-heading__description-advantages">
+					<div class="description-advantages">
+						<img src="img/icon_spica.png" alt="Натуральные ингредиенты" class="description-advantages__img">
+						<div class="description-advantages__wrapper">
+							<span class="description-advantages__title">Без добавок</span>
+							<span class="description-advantages__text">Натуральные ингридиенты</span>
+						</div>
+					</div>
+					<div class="description-advantages">
+						<img src="img/icon_gift.png" alt="Натуральные ингредиенты" class="description-advantages__img">
+						<div class="description-advantages__wrapper">
+							<span class="description-advantages__title">Доставка</span>
+							<span class="description-advantages__text">Доставка бесплатно при заказе от 2000 рублей<sup>*</sup></span>
+						</div>
+					</div>
+				</div>
+								<!-- <div class="page-heading_img-cake">
+					<img src="img/heading_cake.png" alt="Тортс макарунами и фруктами">
+				</div> -->
 			</div>
 		</section>
+
 		<section class="our-cakes">
 			<h2 class="our-cakes__title">Наши торты</h2>
 			<div class="cake-category cake-category--big">
 				<h3 class="cake-category__title">Классические</h3>
 				<span class="cake-category__counter">24 вида</span>
-				<img src="img/classics.jpg" alt="Классический торт" class="cake-category__img">
+				<!-- <img src="img/classics.jpg" alt="Классический торт" class="cake-category__img"> -->
 				<a class="cake-category__to_all" href=""></a>
 			</div>
 			<div class="cake-category">
