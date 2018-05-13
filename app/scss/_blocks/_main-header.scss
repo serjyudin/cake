@@ -1,21 +1,35 @@
 .main-header {
-	position: relative;
-	width: 1220px;
-	
-	display: flex;
 
-	margin: 60px auto 20px;
+	margin: 55px 0 15px;
 	padding: 0;
-	color: $text;
+
+	&__wrapper {
+		position: relative;
+		width: $container-d;
+	  margin: 0 auto;
+
+		display: flex;
+		align-items: baseline;
+	}
 
 	&__logo {
 		margin-right: 45px;
-		font-family: $alter-font, serif;
-		font-size: 24px;
-		line-height: 33px;
+		font-family: $alter-font;
 
+		font-size: 24px;
+		line-height: 32px;
+
+		text-decoration: none;
+		color: $text;
 	}
-	&__nav {
-		margin-right: 250px;
+
+	&__phone-mobile {
+		font-family: $default-font;
+		font-size: 15px;
+		line-height: 32px;
+		font-weight: bold;
+
+		text-decoration: none;
+		color: $text;
 	}
 }
