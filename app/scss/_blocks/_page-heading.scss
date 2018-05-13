@@ -1,0 +1,38 @@
+.page-heading {
+
+  width: 100%;
+
+  background-image: url(../img/heading_cake.png), url(../img/ill_strawberry_1.png), url(../img/ill_raspberry.png), url(../img/ill_strawberry_2.png);
+  background-repeat: no-repeat;
+  background-position: right top, 55% 0, 47% 20%, 37% 40%;
+  background-size: contain, auto, auto, auto, auto;
+
+  &__wrapper {
+    width: $container-d;
+    margin: 0 auto;
+    padding: 140px 0 270px;
+  }
+  &__title {
+    width: 350px;
+
+    margin: 0;
+    padding-bottom: 25px;
+
+    font-family: $alter-font;
+    font-size: 78px;
+    line-height: 70px;
+  }
+  &__slogan {
+    display: block;
+
+    padding-bottom: 70px;
+
+    font-family: $accent-font;
+    font-size: 40px;
+  }
+  &__description-advantages {
+    display: flex;
+
+    padding-top: 120px;
+  }
+}

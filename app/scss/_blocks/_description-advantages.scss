@@ -1,0 +1,26 @@
+.description-advantages {
+
+  width: 250px;
+  margin-right: 20px;
+  display: flex;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+  }
+  &__img {
+    width: 55px;
+    height: 55px;
+    padding-right: 15px;
+  }
+  &__title {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

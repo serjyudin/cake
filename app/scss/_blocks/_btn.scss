@@ -1,0 +1,19 @@
+.btn {
+
+  display: inline-flex;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: $white;
+  background-color: $accent;
+  border: 1px solid $accent;
+  border-radius: 25px;
+
+  &--size-m {
+    font-size: 13px;
+    min-width: 225px;
+    padding: 11px 67px;
+  }
+}
