@@ -1,3 +1,36 @@
 .our-cakes {
-  
+
+  margin-top: -50px;
+
+  &__title {
+    flex-basis: $container-d;
+
+    font-family: $alter-font;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  &__wrapper {
+    position: relative;
+    width: $container-d;
+    margin: 0 auto 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__mini {
+
+    &--right {
+      margin-left: 40px;
+      padding-bottom: 40px;
+    }
+    &--left {
+      margin-right: 40px;
+    }
+  }
+  &__link {
+    max-height: 650px;
+    text-decoration: none;
+  }
 }
