@@ -3,6 +3,7 @@
   display: inline-flex;
   box-sizing: border-box;
 
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -10,10 +11,20 @@
   background-color: $accent;
   border: 1px solid $accent;
   border-radius: 25px;
-
+  &--size-xs {
+    font-size: 13px;
+    min-width: 120px;
+    padding: 10px 30px;
+  }
+  &--size-s {
+    font-size: 13px;
+    min-width: 180px;
+    padding: 17px 60px;
+  }
   &--size-m {
     font-size: 13px;
     min-width: 225px;
-    padding: 11px 67px;
+    padding: 13px 67px;
+    height: 52px;
   }
 }
