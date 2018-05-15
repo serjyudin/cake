@@ -142,82 +142,131 @@
 		</section>
 
 		<section class="individual-order">
-			<h2 class="individual-order__title">Индивидуальный заказ</h2>
-			<h3 class="individual-order__subtitle">Соберите тарт в 3 шага</h3>
-			<div class="order-steps">
-				<div class="order-steps__step step">
-					<h2 class="step__title">01</h2>
-					<h3 class="step__subtitle">Выберете начинку</h3>
-					<div class="step__slider filling-slider">
-						<img src="img/filling.jpg" alt="Шоколадный ганаш" class="filling-slider__img">
-						<h3 class="filling-slider__title">Шоколадный ганаш</h3>
-						<p class="filling-slider__description">Артоматный шоколадный бисквит, густой шоколадный крем - самый шоколадный из всез возможных десертов!</p>
-						<span class="filling-slider__price">1000 руб/кг</span>
-						<button class="filling-slider__submit btn">Выбрать</button>
+			<div class="individual-order__wrapper">
+				<h2 class="individual-order__title">Индивидуальный заказ</h2>
+				<h3 class="individual-order__subtitle">Соберите тарт в 3 шага</h3>
+				<div class="order-steps">
+					<div class="order-steps__step step">
+						<div class="step__title">
+							<h2 class="step__number">01</h2>
+							<h3 class="step__subtitle">Выберете начинку</h3>
+						</div>
+						<div class="step__slider single-slide">
+							<div class="single-slide__item">
+								<div class="filling-slider">
+									<img src="img/filling.jpg" alt="Шоколадный ганаш" class="filling-slider__img">
+									<div class="filling-slider__info">
+										<h3 class="filling-slider__title">Шоколадный ганаш</h3>
+										<p class="filling-slider__description">Артоматный шоколадный бисквит, густой шоколадный крем - самый шоколадный из всез возможных десертов!</p>
+										<span class="filling-slider__price">1000 руб/кг</span>
+										<button class="filling-slider__submit btn btn--size-s">Выбрать</button>
+									</div>
+								</div>
+							</div>
+							<div class="single-slide__item">
+								<div class="filling-slider">
+									<img src="img/filling_2.jpg" alt="Шоколадный ганаш" class="filling-slider__img">
+									<div class="filling-slider__info">
+										<h3 class="filling-slider__title">Вишневый крем</h3>
+										<p class="filling-slider__description">Артоматный шоколадный бисквит, густой шоколадный крем - самый шоколадный из всез возможных десертов!</p>
+										<span class="filling-slider__price">1000 руб/кг</span>
+										<button class="filling-slider__submit btn btn--size-s">Выбрать</button>
+									</div>
+							</div>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="order-steps__step step">
-					<h2 class="step__title">02</h2>
-					<h3 class="step__subtitle">Размер</h3>
-					<div class="step__size cake-size">
-						<label for="" class="cake-size__radio">
-							<input type="radio" class="">
-						</label>
-						<p class="cake-size__description">
-							<span>23 - 24 см</span>
-							<span>(1 кг - 6 персон)</span>
-						</p>
+					<div class="order-steps__step step">
+						<div class="step__title">
+							<h2 class="step__number">02</h2>
+							<h3 class="step__subtitle">Размер</h3>
+						</div>
+						<div class="step__size cake-size">
+							<label for="cake-1kg" class="cake-size__wrapper">
+								<input id="cake-1kg" type="radio" name="cake" class="cake-size__radio visually-hidden">
+								<span class="cake-size__radio-custom cake-size__radio-custom--theme-1kg"></span>
+							</label>
+							<p class="cake-size__description">
+								<span>23 - 24 см</span>
+								<span>(1 кг - 6 персон)</span>
+							</p>
+						</div>
+						<div class="step__size cake-size">
+							<label for="cake-2kg" class=" ">
+								<input id="cake-2kg" type="radio" name="cake" class="cake-size__radio visually-hidden">
+								<span class="cake-size__radio-custom cake-size__radio-custom--theme-2kg"></span>
+							</label>
+							<p class="cake-size__description">
+								<span>17-18 см</span>
+								<span>(10-12 персон)</span>
+							</p>
+						</div>
+						<div class="step__size cake-size">
+							<label for="cake-5kg" class=" ">
+								<input id="cake-5kg" type="radio" name="cake" class="cake-size__radio visually-hidden">
+								<span class="cake-size__radio-custom cake-size__radio-custom--theme-5kg"></span>
+							</label>
+							<p class="cake-size__description">
+								<span>Два яруса 25 и 20 см</span>
+								<span>(15-20 персон)</span>
+							</p>
+						</div>
+						<div class="step__size cake-size">
+							<label for="cake-8kg" class=" ">
+								<input id="cake-8kg" type="radio" name="cake" class="cake-size__radio visually-hidden">
+								<span class="cake-size__radio-custom cake-size__radio-custom--theme-8kg"></span>
+							</label>
+							<p class="cake-size__description">
+								<span>Три яруса 30, 25 и 18 см</span>
+								<span>(25-30 персон)</span>
+							</p>
+						</div>
 					</div>
-					<div class="step__size cake-size">
-						<label for="" class="cake-size__radio">
-							<input type="radio" class="">
-						</label>
-						<p class="cake-size__description">
-							<span>17-18 см</span>
-							<span>(10-12 персон)</span>
-						</p>
+					<div class="order-steps__step order-steps__step--decor step">
+						<div class="step__title">
+							<h2 class="step__number">03</h2>
+							<h3 class="step__subtitle">Оформление</h3>
+						</div>
+						<div class="step__decor-slider multiple-slide">
+							<div class="multiple-slide__item">
+								<div class="decor-slider decor-slider--theme--fruit">
+									<h3 class="decor-slider__title">Ягодное ассорти</h3>
+									<span class="decor-slider__price">1000 руб/кг</span>
+									<button class="decor-slider__submit btn btn--size-xs">Выбрать</button>
+								</div>
+							</div>
+							<div class="multiple-slide__item decor-slider--theme--marshmallow">
+								<div class="decor-slider">
+									<h3 class="decor-slider__title">Маршмэллоу</h3>
+									<span class="decor-slider__price">600 руб/кг</span>
+									<button class="decor-slider__submit btn btn--size-xs">Выбрать</button>
+								</div>
+							</div>
+							<div class="multiple-slide__item decor-slider--theme--oreo">
+								<div class="decor-slider">
+									<h3 class="decor-slider__title">Oreo</h3>
+									<span class="decor-slider__price">500 руб/кг</span>
+									<button class="decor-slider__submit btn btn--size-xs">Выбрать</button>
+								</div>
+							</div>
+						</div>
+						<form action="" class="step__form order-form">
+							<div class="order-form__block">
+								<label for="" class="order-form__label">Начинка</label>
+								<input type="text" class="order-form__filling">
+							</div>
+							<div class="order-form__block">
+								<label for="" class="order-form__label">Размер</label>
+								<input type="text" class="order-form__filling">
+							</div>
+							<div class="order-form__block">
+								<label for="" class="order-form__label">Оформление</label>
+								<input type="text" class="order-form__filling">
+							</div>
+							
+							<button class="order-form__button btn btn--size-m">Заказать торт</button>
+						</form>
 					</div>
-					<div class="step__size cake-size">
-						<label for="" class="cake-size__radio">
-							<input type="radio" class="">
-						</label>
-						<p class="cake-size__description">
-							<span>Два яруса 25 и 20 см</span>
-							<span>(15-20 персон)</span>
-						</p>
-					</div>
-					<div class="step__size cake-size">
-						<label for="" class="cake-size__radio">
-							<input type="radio" class="">
-						</label>
-						<p class="cake-size__description">
-							<span>Три яруса 30, 25 и 18 см</span>
-							<span>(25-30 персон)</span>
-						</p>
-					</div>
-				</div>
-				<div class="order-steps__step step">
-					<h2 class="step__title">01</h2>
-					<h3 class="step__subtitle">Выберете начинку</h3>
-					<div class="step__slider decor-slider">
-						<img src="img/decor_cake.jpg" alt="Ягодное ассорти" class="decor-slider__img">
-						<h3 class="decor-slider__title">Ягодное ассорти</h3>
-						<span class="decor-slider__price">1000 руб/кг</span>
-					</div>
-					<div class="step__slider decor-slider">
-						<img src="img/decor_cake_2.jpg" alt="Маршмеллоу" class="decor-slider__img">
-						<h3 class="decor-slider__title">Маршмэллоу</h3>
-						<span class="decor-slider__price">600 руб/кг</span>
-					</div>
-					<form action="" class="step__form order-form">
-						<label for="" class="order-form__label">Начинка</label>
-						<input type="text" class="order-form__filling">
-						<label for="" class="order-form__label">Размер</label>
-						<input type="text" class="order-form__filling">
-						<label for="" class="order-form__label">Оформление</label>
-						<input type="text" class="order-form__filling">
-						<button class="order-form__button btn">Заказать торт</button>
-					</form>
 				</div>
 			</div>
 		</section>
