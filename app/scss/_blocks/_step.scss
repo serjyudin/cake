@@ -1,0 +1,41 @@
+.step {
+
+  display: flex;
+
+  box-shadow: 0 0 13px 2px  rgba(163, 6, 60,.12);
+
+  &__title {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  &__number {
+
+    margin: 0;
+    padding-bottom: 20px;
+
+    font-family: $alter-font;
+    font-size: 58px;
+
+    color: $accent;
+  }
+  &__subtitle {
+    margin: 0;
+
+    font-family: $alter-font;
+    font-size: 27px;
+    line-height: 30px;
+    color: $accent;
+  }
+  &__slider {
+
+    width: 750px;
+  }
+  &__decor-slider {
+    margin: 0 60px 65px;
+    width: 700px;
+  }
+  &__size {
+
+  }
+}
