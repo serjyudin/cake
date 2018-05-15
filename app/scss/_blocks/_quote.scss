@@ -1,0 +1,36 @@
+.quote {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 675px;
+  padding: 70px 10px 10px;
+  box-sizing: border-box;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -40px;
+    width: 60px;
+    height: 40px;
+    background-image: url(../img/ill_quote.png);
+    background-repeat: no-repeat;
+
+  }
+  &__text {
+
+    margin: 0;
+    margin-bottom: 35px;
+
+    font-family: $alter-font-b-i;
+    font-size: 25px;
+    line-height: 37px;
+
+    text-align: center;
+  }
+  &__autograph {
+    align-self: center;
+  }
+}

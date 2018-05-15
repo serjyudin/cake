@@ -1,0 +1,53 @@
+.about-us {
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: $container-d;
+    margin: 0 auto;
+
+  }
+  &__text {
+    width: 600px;
+  }
+  &__title {
+    margin: 0;
+
+    font-family: $alter-font;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  &__subtitle {
+
+    margin: 0;
+    margin-bottom: 15px;
+
+    font-family: $accent-font;
+    font-size: 35px;
+    font-weight: 400;
+  }
+  &__slogan {
+
+
+    font-family: $default-font;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  &__description {
+
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  &__img {
+    margin: 0 auto;
+    align-self: center;
+    margin-top: -40px;
+  }
+  &__quote {
+    margin: 80px auto 0;
+  }
+}
