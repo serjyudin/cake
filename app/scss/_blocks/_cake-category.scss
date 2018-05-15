@@ -51,28 +51,34 @@
     height: 650px;
   }
   &--theme--classics {
+    background-color: $white;
     background-image: url(../img/classics.jpg);
     background-size: auto;
   }
   &--theme--mousse {
+    background-color: $white;
     background-image: url(../img/mousse.jpg);
     background-size: auto;
     margin-bottom: 40px;
   }
   &--theme--wedding {
+    background-color: $white;
     background-image: url(../img/wedding.jpg);
     background-size: auto;
   }
   &--theme--formen {
+    background-color: $white;
     background-image: url(../img/formen.jpg);
     background-size: auto;
     margin-bottom: 40px;
   }
   &--theme--forwoman {
+    background-color: $white;
     background-image: url(../img/forwoman.jpg);
     background-size: auto;
   }
   &--theme--forchild {
+    background-color: $white;
     background-image: url(../img/forchild.jpg);
     background-size: auto;
   }
