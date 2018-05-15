@@ -1,13 +1,18 @@
 .order-steps {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   &__step {
 
     padding: 70px 80px;
     margin-bottom: 35px;
     background: $white;
     &--decor {
-
       flex-wrap: wrap;
+
+      background-image: url(../img/ill_cake_piece.png);
+      background-repeat: no-repeat;
+      background-position: 25px 200px;
+      background-size: auto;
+
     }
   }
 }
