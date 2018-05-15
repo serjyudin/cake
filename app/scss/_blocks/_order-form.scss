@@ -1,0 +1,30 @@
+.order-form {
+  display: flex;
+
+  &__block {
+    flex-basis: 260px;
+  }
+  &__label {
+
+
+    font-family: $accent-font;
+    font-size: 27px;
+    font-weight: 400;
+    color: $accent;
+  }
+  &__filling {
+
+    padding: 12px 0;
+
+    font-family: $default-font;
+    font-size: 18px;
+    color: $text;
+
+
+    border: none;
+    border-bottom: 2px solid $bg;
+  }
+  &__button {
+    align-self: flex-end;
+  }
+}

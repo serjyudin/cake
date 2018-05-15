@@ -1,0 +1,13 @@
+.order-steps {
+  margin-bottom: 50px;
+  &__step {
+
+    padding: 70px 80px;
+    margin-bottom: 35px;
+    background: $white;
+    &--decor {
+
+      flex-wrap: wrap;
+    }
+  }
+}

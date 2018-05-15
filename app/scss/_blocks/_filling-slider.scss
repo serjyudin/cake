@@ -1,0 +1,32 @@
+.filling-slider {
+
+  display: flex;
+  width: 750px;
+  &__img {
+    width: 340px;
+    height: 390px;
+  }
+  &__info {
+    padding: 60px 40px;
+  }
+  &__title {
+
+    font-family: $default-font;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+
+  }
+  &__descripton {
+    font-family: $default-font;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  &__price {
+    display: block;
+    margin-bottom: 25px;
+    font-family: $alter-font;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
