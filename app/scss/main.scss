@@ -12,7 +12,17 @@
 
 @import "_blocks/our-cakes";
 @import "_blocks/cake-category";
+@import "_blocks/individual-order";
+@import "_blocks/order-steps";
+@import "_blocks/step";
+@import "_blocks/filling-slider";
+@import "_blocks/cake-size";
+@import "_blocks/decor-slider";
+@import "_blocks/multiple-slide";
+@import "_blocks/order-form";
 
 
+@import "../libs/slick/slick.scss";
+@import "../libs/slick/slick-theme.scss";
 
 @import "media"; // Always at the end
