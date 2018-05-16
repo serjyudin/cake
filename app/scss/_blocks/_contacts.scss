@@ -1,0 +1,43 @@
+.contacts {
+
+    margin-bottom: 80px;
+  &__title {
+    margin: 0;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    flex-basis: 100%;
+
+    font-family: $alter-font;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 10px;
+    flex-basis: 100%;
+
+    font-family: $accent-font;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 400;
+  }
+  &__wrapper {
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background-image: url(../img/fruit_contacts.png);
+  }
+  &__description {
+    flex-basis: 440px;
+    padding-left: 15px;
+  }
+  &__phone {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  &__email {
+    margin-bottom: 15px;
+  }
+}

@@ -1,7 +1,7 @@
 .description-advantages {
 
-  width: 250px;
-  margin-right: 20px;
+  // width: 250px;
+
   display: flex;
 
   &__wrapper {
@@ -10,8 +10,9 @@
 
   }
   &__img {
-    width: 55px;
-    height: 55px;
+    align-self: flex-start;
+    min-width: 65px;
+    // height: 55px;
     padding-right: 15px;
   }
   &__title {

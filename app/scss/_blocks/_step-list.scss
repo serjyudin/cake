@@ -1,0 +1,29 @@
+.step-list {
+  display: flex;
+  width: 505px;
+
+  color: $white;
+  // flex-direction: column;
+  // flex-wrap: wrap;
+
+  &__number {
+    min-width: 30px;
+    padding-right: 15px;
+
+    font-family: $alter-font;
+    font-size: 64px;
+
+  }
+  &__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  &__description {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

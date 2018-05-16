@@ -1,5 +1,7 @@
 .site-menu {
 	position: relative;
+	display: flex;
+	justify-content: space-between;
 	width: 745px;
 
 	margin: 0;
@@ -7,18 +9,25 @@
 
 	list-style: none;
 
-	display: flex;
-	justify-content: space-between;
+	font-family: $default-font, serif;
+	font-size: 13px;
+	line-height: 32px;
 
+
+	&--text-trans {
+		&--uppercase {
+			text-transform: uppercase;
+		}
+		&--none {
+			text-transform: none;
+		}
+		&--m {
+			font-size: 16px;
+		}
+	}
 	&__item {
-		font-family: $default-font, serif;
-		font-size: 13px;
-		line-height: 32px;
-		text-transform: uppercase;
 
-		// a {
-		//
-		// }
+
 	}
 
 	&__link {

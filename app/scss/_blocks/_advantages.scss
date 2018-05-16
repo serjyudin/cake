@@ -1,0 +1,40 @@
+.advantages {
+
+  &__wrapper {
+
+    width: 1220px;
+    margin: 0 auto;
+  }
+  &__title {
+
+    margin: 0;
+    margin-bottom: 5px;
+
+    font-family: $alter-font;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+
+    text-align: center;
+
+    &--left {
+      margin-top: 200px;
+      text-align: left;
+    }
+  }
+  &__subtitle {
+
+    margin: 0;
+
+    font-family: $accent-font;
+    font-size: 35px;
+    line-height: 59px;
+    font-weight: 400;
+
+    text-align: center;
+
+    &--left {
+      text-align: left;
+    }
+  }
+}

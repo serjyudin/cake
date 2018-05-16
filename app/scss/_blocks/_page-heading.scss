@@ -2,10 +2,10 @@
 
   width: 100%;
 
-  background-image: url(../img/heading_cake.png), url(../img/ill_strawberry_1.png), url(../img/ill_raspberry.png), url(../img/ill_strawberry_2.png);
+  background-image: url(../img/ill_strawberry_1.png), url(../img/ill_raspberry.png), url(../img/ill_strawberry_2.png);
   background-repeat: no-repeat;
-  background-position: right top, 55% 0, 47% 20%, 37% 40%;
-  background-size: contain, auto, auto, auto, auto;
+  background-position: 55% 0, 47% 20%, 37% 40%;
+  background-size: auto, auto, auto, auto;
 
   &__wrapper {
     width: $container-d;
@@ -35,5 +35,15 @@
     display: flex;
 
     padding-top: 120px;
+  }
+  &__description-advantage {
+    flex-basis: 250px;
+    margin-right: 20px;
+  }
+  &__img-cake {
+    position: absolute;
+
+    top: 50px;
+    margin-left: 535px;
   }
 }

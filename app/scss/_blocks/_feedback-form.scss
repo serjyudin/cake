@@ -1,0 +1,26 @@
+.feedback-form {
+  flex-basis: 600px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+  &__input {
+    width: 550px;
+    padding: 12px 0;
+    margin-bottom: 15px;
+
+    font-family: $default-font;
+    font-size: 14px;
+    color: $text;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #c9bcbb;
+  }
+  &__button {
+    margin-top: 65px;
+    margin-right: auto;
+  }
+}
