@@ -5,11 +5,9 @@
 @import "_blocks/main-header";
 @import "_blocks/main-nav";
 @import "_blocks/site-menu";
-
 @import "_blocks/page-heading";
 @import "_blocks/btn";
 @import "_blocks/description-advantages";
-
 @import "_blocks/our-cakes";
 @import "_blocks/cake-category";
 @import "_blocks/individual-order";
@@ -33,8 +31,5 @@
 @import "_blocks/feedback-form";
 @import "_blocks/main-footer";
 
-
 @import "../libs/slick/slick.scss";
 @import "../libs/slick/slick-theme.scss";
-
-@import "media"; // Always at the end
