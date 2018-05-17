@@ -8,12 +8,28 @@
   background-size: auto, auto, auto, auto;
 
   &__wrapper {
+    position: relative;
+
     width: $container-d;
     margin: 0 auto;
-    padding: 140px 0 270px;
+    padding: 140px 10px 270px;
 
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 500px;
+      width: 920px;
+      height: 920px;
+      background-image: url(../img/heading_cake.png);
+      background-repeat: no-repeat;
+      // background-position: 500px top;
+      background-size: contain;
+      // overflow: visible;
+    }
   }
   &__title {
+
     width: 350px;
 
     margin: 0;

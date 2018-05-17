@@ -5,12 +5,13 @@
     position: relative;
     width: $container-d;
     margin: 0 auto;
+    padding: 0 10px;
   }
 
   &__title {
 
     margin: 0;
-    
+
 
     font-family: $alter-font;
     font-size: 40px;

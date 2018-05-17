@@ -4,20 +4,23 @@
 
   &__title {
     flex-basis: $container-d;
+    margin: 0;
+    margin-bottom: 50px;
 
     font-family: $alter-font;
     font-size: 40px;
     line-height: 60px;
-    margin: 0;
-    margin-bottom: 50px;
+
   }
   &__wrapper {
     position: relative;
-    width: $container-d;
-    margin: 0 auto 100px;
-
     display: flex;
     flex-wrap: wrap;
+
+    width: $container-d;
+    margin: 0 auto 100px;
+    padding: 0 10px;
+    
   }
   &__mini {
 

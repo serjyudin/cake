@@ -1,6 +1,17 @@
 .contacts {
 
-    margin-bottom: 80px;
+  margin-bottom: 80px;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: $container-d;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    // background-image: url(../img/fruit_contacts.png);
+  }
   &__title {
     margin: 0;
     margin-top: 70px;
@@ -20,14 +31,6 @@
     font-size: 35px;
     line-height: 45px;
     font-weight: 400;
-  }
-  &__wrapper {
-    width: 1220px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-
-    background-image: url(../img/fruit_contacts.png);
   }
   &__description {
     flex-basis: 440px;
