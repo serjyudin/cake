@@ -5,6 +5,11 @@
     width: $container-d;
     margin: 0 auto;
     padding: 0 10px;
+
+    background-image: url(../img/ill_raspberry_2.png), url(../img/ill_leaves.png), url(../img/ill_blueberries.png), url(../img/ill_leaves_2.png);
+    background-repeat: no-repeat;
+    background-position: 0 50px, 410px 110px, 170px 0, 330px 550px;
+    background-size: auto, auto, auto, auto;
   }
   &__title {
 
