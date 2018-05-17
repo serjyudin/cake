@@ -27,11 +27,13 @@
 	}
 	&__item {
 
-
 	}
-
 	&__link {
 		text-decoration: none;
 		color: $text;
+
+		&--active {
+			color: $accent;
+		}
 	}
 }
