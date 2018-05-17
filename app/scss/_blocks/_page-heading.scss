@@ -2,17 +2,17 @@
 
   width: 100%;
 
-  background-image: url(../img/ill_strawberry_1.png), url(../img/ill_raspberry.png), url(../img/ill_strawberry_2.png);
-  background-repeat: no-repeat;
-  background-position: 55% 0, 47% 20%, 37% 40%;
-  background-size: auto, auto, auto, auto;
-
   &__wrapper {
     position: relative;
 
     width: $container-d;
     margin: 0 auto;
     padding: 140px 10px 270px;
+
+    background-image: url(../img/ill_strawberry_1.png), url(../img/ill_raspberry.png), url(../img/ill_strawberry_2.png);
+    background-repeat: no-repeat;
+    background-position: 485px 30px, 445px 200px, 295px 370px;
+    background-size: auto, auto, auto, auto;
 
     &::after {
       content: "";
