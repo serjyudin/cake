@@ -1,4 +1,42 @@
 .main-nav {
+  position: relative;
   display: flex;
   // margin-right: auto;
+  &__toggle {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet) {
+  .main-nav {
+
+
+    &__toggle {
+      display: block;
+      position: absolute;
+      top: -36px;
+      left: -15px;
+      width: 60px;
+      height: 60px;
+      background-color: $white;
+      border: none;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 19px;
+        left: 17px;
+        width: 26px;
+        height: 2px;
+        background-color: $text;
+        box-shadow: 0 10px 0 0 $text, 0 20px 0 0 $text;
+      }
+
+    }
+  }
+  .main-nav--closed .site-menu__item {
+    display: none;
+  }
+  .main-nav--opened .site-menu__item {
+    display: block;
+  }
 }

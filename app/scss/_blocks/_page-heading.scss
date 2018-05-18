@@ -21,7 +21,7 @@
       left: 500px;
       width: 920px;
       height: 920px;
-      background-image: url(../img/heading_cake.png);
+      // background-image: url(../img/heading_cake.png);
       background-repeat: no-repeat;
       // background-position: 500px top;
       background-size: contain;
@@ -61,5 +61,15 @@
 
     top: 50px;
     margin-left: 535px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .page-heading {
+
+    &__title {
+      position: relative;
+      z-index: 9;
+    }
   }
 }

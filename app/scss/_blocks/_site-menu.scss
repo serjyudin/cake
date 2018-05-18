@@ -2,7 +2,7 @@
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	width: 745px;
+	width: 100%;
 
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@
 		}
 	}
 	&__item {
-
+	margin: 0 20px;
 	}
 	&__link {
 		text-decoration: none;
@@ -34,6 +34,35 @@
 
 		&--active {
 			color: $accent;
+		}
+	}
+}
+
+@media (min-width: $tablet) {
+	.site-menu {
+		position: absolute;
+		top: 25px;
+		left: -111px;
+		min-width: $mobile;
+		flex-direction: column;
+
+		z-index: 10;
+		text-align: center;
+
+		&__item {
+
+			margin: 0;
+			background-color: $footer-bg;
+			border-top: 1px solid rgba(0, 0, 0, .05);
+
+		}
+		&__link {
+
+			display: block;
+			padding-top: 4px;
+			padding-bottom: 4px;
+
+			font-size: 12px;
 		}
 	}
 }

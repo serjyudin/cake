@@ -14,7 +14,7 @@
 	}
 
 	&__logo {
-		margin-right: 45px;
+		margin-right: 25px;
 		font-family: $alter-font;
 
 		font-size: 24px;
@@ -34,5 +34,24 @@
 
 		text-decoration: none;
 		color: $text;
+	}
+}
+
+@media (min-width: $tablet) {
+	.main-header {
+		min-width: $tablet;
+		height: 60px;
+
+		margin: 0;
+		background-color: $white;
+		background-size: cover;
+
+		&__wrapper {
+			width: $tablet;
+			padding: 10px 20px;
+			box-sizing: border-box;
+
+
+		}
 	}
 }
