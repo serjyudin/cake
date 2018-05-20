@@ -18,21 +18,25 @@
       width: 110px;
       height: 110px;
       background-image: url(../img/1kg.png);
+      background-size: cover;
     }
     &--theme-2kg {
       width: 154px;
       height: 154px;
       background-image: url(../img/2kg.png);
+      background-size: cover;
     }
     &--theme-5kg {
       width: 174px;
       height: 174px;
       background-image: url(../img/5kg.png);
+      background-size: cover;
     }
     &--theme-8kg {
       width: 199px;
       height: 201px;
       background-image: url(../img/8kg.png);
+      background-size: cover;
     }
   }
   &__description {
@@ -81,6 +85,60 @@
       box-shadow: 0 10px 13px 4px  rgba(163, 6, 60,.12);
       border-radius: 50%;
 
+    }
+  }
+}
+
+@media (min-width: $tablet) {
+  .cake-size {
+
+
+    &__description {
+      padding: 0 10px;
+      margin-bottom: 0;
+      font-size: 12px;
+
+    }
+    &__radio-custom {
+
+      &--theme-1kg {
+
+        width: 77px;
+        height: 77px;
+      }
+      &--theme-2kg {
+        width: 107px;
+        height: 107px;
+      }
+      &--theme-5kg {
+        width: 121px;
+        height: 121px;
+      }
+      &--theme-8kg {
+        margin-top: 30px;
+        width: 139px;
+        height: 141px;
+      }
+    }
+    &__radio {
+
+      &:checked + .cake-size__radio-custom--theme-1kg::before {
+        width: 77px;
+        height: 77px;
+      }
+      &:checked + .cake-size__radio-custom--theme-2kg::before {
+        width: 107px;
+        height: 107px;
+      }
+      &:checked + .cake-size__radio-custom--theme-5kg::before {
+        width: 121px;
+        height: 121px;
+      }
+      &:checked + .cake-size__radio-custom--theme-8kg::before {
+
+        width: 139px;
+        height: 141px;
+      }
     }
   }
 }

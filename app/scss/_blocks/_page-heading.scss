@@ -21,9 +21,9 @@
       left: 500px;
       width: 920px;
       height: 920px;
-      // background-image: url(../img/heading_cake.png);
+      background-image: url(../img/heading_cake.png);
       background-repeat: no-repeat;
-      // background-position: 500px top;
+      background-position: 0 top;
       background-size: contain;
       // overflow: visible;
     }
@@ -64,12 +64,40 @@
   }
 }
 
-@media (max-width: $tablet) {
+@media (min-width: $tablet) {
   .page-heading {
 
+    // min-width: $tablet;
+    &__wrapper {
+      width: $tablet;
+			padding: 100px 45px 140px;
+			box-sizing: border-box;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 500px;
+        width: 520px;
+        height: 520px;
+        background-image: url(../img/heading_cake.png);
+        background-repeat: no-repeat;
+        background-position: 0 20px;
+        background-size: contain;
+      }
+    }
     &__title {
       position: relative;
       z-index: 9;
+      padding-bottom: 35px;
+
+      font-size: 60px;
+      line-height: 55px;
+    }
+    &__slogan {
+
+      font-size: 36px;
+
     }
   }
 }

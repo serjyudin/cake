@@ -42,3 +42,37 @@
 
   }
 }
+
+@media (min-width: $tablet) {
+  .step {
+
+
+    &__title {
+      width: 110px;
+      position: absolute;
+    }
+    &__slider {
+      width: 450px;
+      margin-left: 140px;
+    }
+    &__number {
+      padding-bottom: 10px;
+
+      font-size: 36px;
+
+    }
+    &__subtitle {
+      width: 160px;
+      font-size: 18px;
+      line-height: 20px;
+
+    }
+    &__decor-slider {
+      width: 430px;
+      margin: 10px 0 35px 185px;
+    }
+    &__form {
+      
+    }
+  }
+}

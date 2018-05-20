@@ -1,6 +1,5 @@
 .decor-slider {
 
-  width: 320px;
   min-height: 420px;
 
   box-sizing: border-box;
@@ -17,19 +16,19 @@
     &--fruit {
       background-image: url(../img/decor_cake.jpg);
       background-repeat: no-repeat;
-      background-position: 0 0;
+      background-position: center 0;
       background-size: cover;
     }
     &--marshmallow {
       background-image: url(../img/decor_cake_2.jpg);
       background-repeat: no-repeat;
-      background-position: 0 0;
+      background-position: center 0;
       background-size: cover;
     }
     &--oreo {
       background-image: url(../img/decor_cake_3.jpg);
       background-repeat: no-repeat;
-      background-position: 0 0;
+      background-position: center 0;
       background-size: cover;
     }
   }
@@ -51,5 +50,23 @@
     font-size: 22px;
 
     font-weight: 700;
+  }
+}
+
+@media (min-width: $tablet) {
+  .decor-slider {
+
+    min-height: 265px;
+    padding: 15px 25px;
+
+    &__title {
+
+      font-size: 14px;
+      line-height: 14px;
+    }
+    &__price {
+      font-size: 14px;
+      line-height: 14px;
+    }
   }
 }
