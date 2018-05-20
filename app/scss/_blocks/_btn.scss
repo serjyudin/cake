@@ -11,6 +11,7 @@
   background-color: $accent;
   border: 1px solid $accent;
   border-radius: 25px;
+
   &:hover {
 
   box-shadow: 0px 5px 7.04px 0.96px rgba(255, 0, 67, 0.3);
@@ -31,5 +32,28 @@
     min-width: 225px;
     padding: 13px 67px;
     height: 52px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .btn {
+
+    &--size-xs {
+      font-size: 8px;
+      min-width: 60px;
+      padding: 8px 30px;
+    }
+    &--size-s {
+      font-size: 10px;
+      min-width: 130px;
+      padding: 14px 40px;
+    }
+    &--size-m {
+      font-size: 10px;
+      min-width: 160px;
+      padding: 13px 37px;
+      height: 42px;
+
+    }
   }
 }
