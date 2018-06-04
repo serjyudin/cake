@@ -90,7 +90,7 @@
   }
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $tablet) and (max-width: $container-d) {
   .cake-category {
     padding: 20px 25px;
     cursor: pointer;

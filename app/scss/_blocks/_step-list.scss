@@ -24,3 +24,20 @@
     line-height: 24px;
   }
 }
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .step-list {
+
+    &__number {
+      font-size: 36px;
+    }
+    &__title {
+      font-size: 15px;
+      margin: 0;
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}

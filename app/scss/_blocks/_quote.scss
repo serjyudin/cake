@@ -34,3 +34,24 @@
     align-self: center;
   }
 }
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .quote {
+    width: 375px;
+    padding-top: 35px;
+
+    &::before {
+      margin-left: -20px;
+      width: 40px;
+      height: 20px;
+      background-image: url(../img/ill_quote_tablet.png);
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 21px;
+    }
+    &__autograph {
+      width: 85px;
+    }
+  }
+}

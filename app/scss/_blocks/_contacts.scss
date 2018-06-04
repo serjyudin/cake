@@ -44,3 +44,38 @@
     margin-bottom: 15px;
   }
 }
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .contacts {
+
+    &__wrapper {
+      width: $tablet;
+      padding: 0 46px;
+      box-sizing: border-box;
+    }
+    &__title {
+      margin-top: 45px;
+      margin-bottom: 10px;
+      font-size: 28px;
+      line-height: 32px;
+    }
+    &__subtitle {
+      font-size: 22px;
+      line-height: 26px;
+      margin-bottom: 15px;
+    }
+    &__description {
+      margin-left: auto;
+      flex-basis: 250px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    &__phone {
+      margin-bottom: 5px;
+    }
+    &__email {
+      margin: 0;
+      margin-bottom: 5px;
+    }
+  }
+}

@@ -33,13 +33,13 @@
   }
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $tablet) and (max-width: $container-d) {
   .individual-order {
 
     &__wrapper {
       width: $tablet;
       padding: 0 20px;
-
+      box-sizing: border-box;
     }
     &__title {
 

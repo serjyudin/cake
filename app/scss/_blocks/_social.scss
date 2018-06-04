@@ -55,3 +55,18 @@
     }
   }
 }
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .social {
+
+    &__link {
+      &--footer {
+        fill: $white;
+
+        &:hover path {
+        fill: $text;
+        }
+      }
+    }
+  }
+}

@@ -43,7 +43,7 @@
   }
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $tablet) and (max-width: $container-d) {
   .step {
 
 
@@ -72,7 +72,7 @@
       margin: 10px 0 35px 185px;
     }
     &__form {
-      
+
     }
   }
 }

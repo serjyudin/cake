@@ -13,7 +13,6 @@
 	font-size: 13px;
 	line-height: 32px;
 
-
 	&--text-trans {
 		&--uppercase {
 			text-transform: uppercase;
@@ -46,31 +45,52 @@
 	}
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $tablet) and (max-width: $container-d) {
 	.site-menu {
-		position: absolute;
-		top: 25px;
-		left: -111px;
-		min-width: $mobile;
-		flex-direction: column;
 
-		z-index: 10;
-		text-align: center;
+		&--header {
+			position: absolute;
+			top: 25px;
+			left: -111px;
+			min-width: $mobile;
+			flex-direction: column;
 
+			z-index: 10;
+			text-align: center;
+		}
 		&__item {
-
-			margin: 0;
-			background-color: $footer-bg;
-			border-top: 1px solid rgba(0, 0, 0, .05);
-
+			&--header {
+				margin: 0;
+				background-color: $footer-bg;
+				border-top: 1px solid rgba(0, 0, 0, .05);
+			}
 		}
 		&__link {
+			&--header {
+				display: block;
+				padding-top: 4px;
+				padding-bottom: 4px;
 
-			display: block;
-			padding-top: 4px;
-			padding-bottom: 4px;
-
-			font-size: 12px;
+				font-size: 12px;
+			}
+		}
+		&--footer {
+			display: flex;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+		}
+		&__item {
+			&--footer {
+				margin: 0 25px;
+				height: 25px;
+			}
+		}
+		&__link {
+			&--footer {
+				color: $white;
+				font-size: 12px;
+				line-height: 16px;
+			}
 		}
 	}
 }

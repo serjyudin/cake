@@ -8,7 +8,7 @@
   background-position: center 0;
   background-size: cover;
 
-  min-width: 1240px;
+  min-width: $container-d;
 
   &__wrapper {
     display: flex;
@@ -34,5 +34,27 @@
   }
   &__step-item {
     margin-bottom: 25px;
+  }
+}
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .order {
+
+    background-position: center top;
+    min-width: $tablet;
+    &__wrapper {
+      width: $tablet;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    &__title {
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 20px;
+    }
+    &__step-list {
+      width: 375px;
+      margin: 25px 0;
+    }
   }
 }

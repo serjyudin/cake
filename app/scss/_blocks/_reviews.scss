@@ -25,3 +25,24 @@
     width: 750px;
   }
 }
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .reviews {
+    margin-bottom: 100px;
+    &__title {
+
+      font-size: 28px;
+      line-height: 33px;
+
+    }
+    &__wrapper {
+      width: $tablet;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    &__slider {
+
+      width: 420px;
+    }
+  }
+}

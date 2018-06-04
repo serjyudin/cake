@@ -37,3 +37,29 @@
     line-height: 24px;
   }
 }
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .advantage-block {
+
+    &__wrapper {
+      padding-top: 50px;
+      padding-left: 85px;
+    }
+    &__img {
+
+      &--left {
+        margin-top: -30px;
+        margin-left: -100px;
+      }
+      &--right {
+        margin-left: auto;
+        margin-top: -240px;
+        margin-right: -70px;
+      }
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}

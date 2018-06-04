@@ -46,13 +46,47 @@
   }
   &__img {
 
-    // width: 315px;
-    // height: 315px;
     margin: 0 auto;
     align-self: center;
     margin-top: -40px;
   }
   &__quote {
     margin: 80px auto 0;
+  }
+}
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .about-us {
+    margin-bottom: 70px;
+    &__wrapper {
+      width: $tablet;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    &__text {
+      width: 347px;
+    }
+    &__title {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    &__subtitle {
+      font-size: 26px;
+      margin-bottom: 5px;
+    }
+    &__slogan {
+      font-size: 15px;
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 10px;
+    }
+    &__img {
+      margin-left: auto;
+      width: 317px;
+      height: 317px;
+
+    }
   }
 }

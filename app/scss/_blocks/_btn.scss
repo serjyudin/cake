@@ -35,7 +35,7 @@
   }
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $tablet) and (max-width: $container-d) {
   .btn {
 
     &--size-xs {

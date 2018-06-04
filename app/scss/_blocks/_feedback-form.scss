@@ -24,3 +24,32 @@
     margin-right: auto;
   }
 }
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .feedback-form {
+    flex-basis: 345px;
+
+    &__title {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    &__input {
+      width: 345px;
+      padding: 15px 15px;
+      margin-bottom: 10px;
+
+      font-size: 14px;
+      color: $text;
+
+      background-color: $white;
+      border: none;
+      &--question {
+
+        height: 80px;
+      }
+    }
+    &__button {
+      margin-top: 15px;
+    }
+  }
+}

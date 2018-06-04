@@ -11,8 +11,8 @@
   }
   &__img {
     align-self: flex-start;
-    min-width: 65px;
-    // height: 55px;
+    width: 65px;
+
     padding-right: 15px;
   }
   &__title {
@@ -21,7 +21,25 @@
     font-weight: 700;
   }
   &__text {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $tablet) and (max-width: $container-d) {
+  .description-advantages {
+
+    &__img {
+      align-self: center;
+      max-width: 45px;
+
+    }
+    &__title {
+      font-size: 15px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 16px;
+    }
   }
 }

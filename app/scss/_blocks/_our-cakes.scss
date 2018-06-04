@@ -38,13 +38,15 @@
   }
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $tablet) and (max-width: $container-d) {
   .our-cakes {
 
 
     &__wrapper {
       width: $tablet;
       padding: 0 20px;
+      margin-bottom: 55px;
+      box-sizing: border-box;
     }
     &__title {
       font-size: 28px;
@@ -53,11 +55,11 @@
     &__mini {
 
       &--right {
-        margin-left: 20px;
+        margin-left: 18px;
         padding-bottom: 20px;
       }
       &--left {
-        margin-right: 20px;
+        margin-right: 18px;
       }
     }
   }
