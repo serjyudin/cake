@@ -11,6 +11,8 @@
   background-color: $accent;
   border: 1px solid $accent;
   border-radius: 25px;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
 
@@ -29,8 +31,9 @@
   }
   &--size-m {
     font-size: 13px;
+    line-height: 13px;
     min-width: 225px;
-    padding: 13px 67px;
+    // padding: 13px 67px;
     height: 52px;
   }
 }
@@ -51,7 +54,7 @@
     &--size-m {
       font-size: 10px;
       min-width: 160px;
-      padding: 13px 37px;
+      // padding: 13px 37px;
       height: 42px;
 
     }
