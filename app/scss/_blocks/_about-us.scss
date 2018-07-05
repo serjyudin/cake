@@ -55,7 +55,7 @@
   }
 }
 
-@media (min-width: $tablet) and (max-width: $container-d) {
+@media (max-width: $container-d) {
   .about-us {
     margin-bottom: 70px;
     &__wrapper {

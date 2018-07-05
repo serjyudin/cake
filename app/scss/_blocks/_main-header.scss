@@ -36,8 +36,8 @@
 		color: $text;
 	}
 }
-
-@media (min-width: $tablet) and (max-width: $container-d) {
+// @media (min-width: $tablet) and (max-width: $container-d)
+@media (max-width: $container-d) {
 	.main-header {
 		min-width: $tablet;
 		height: 60px;
@@ -53,5 +53,11 @@
 
 
 		}
+	}
+}
+
+@media (min-width: $mobile) and (max-width: $tablet) {
+	.main-header {
+		width: $mobile;
 	}
 }

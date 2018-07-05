@@ -35,7 +35,7 @@
   }
 }
 
-@media (min-width: $tablet) and (max-width: $container-d) {
+@media (max-width: $container-d) {
   .quote {
     width: 375px;
     padding-top: 35px;

@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: $tablet) and (max-width: $container-d) {
+@media (max-width: $container-d) {
   .main-footer {
     min-width: $tablet;
     background: #898989;

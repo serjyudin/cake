@@ -34,9 +34,9 @@
   }
 }
 
-@media (min-width: $tablet) {
+@media (max-width: $container-d) {
   .filling-slider {
-    
+
     width: 440px;
 
     &__img {
