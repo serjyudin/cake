@@ -56,8 +56,30 @@
 	}
 }
 
-@media (min-width: $mobile) and (max-width: $tablet) {
+@media (max-width: $tablet) {
 	.main-header {
-		width: $mobile;
+		z-index: 10;
+		position: fixed;
+		width: 100%;
+		min-width: $mobile;
+		height: 40px;
+
+		&__wrapper {
+			width: $mobile;
+			margin: 0 auto;
+
+			padding: 5px 20px;
+			box-sizing: border-box;
+		}
+
+		&__logo {
+			font-size: 16px;
+			line-height: 32px;
+
+		}
+
+		&__phone-mobile {
+			display: none;
+		}
 	}
 }

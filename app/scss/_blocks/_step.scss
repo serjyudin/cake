@@ -76,3 +76,22 @@
     }
   }
 }
+
+@media (max-width: $tablet) {
+  .step {
+
+    &__title {
+      width: 240px;
+      flex-direction: row;
+      align-items: baseline;
+    }
+    &__number {
+      margin-right: 15px;
+      font-size: 30px;
+    }
+    &__subtitle {
+      width: 190px;
+      font-size: 16px;
+    }
+  }
+}

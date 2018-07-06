@@ -57,3 +57,14 @@
     }
   }
 }
+
+@media (max-width: $tablet) {
+  .individual-order {
+
+    &__wrapper {
+      width: $mobile;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+  }
+}

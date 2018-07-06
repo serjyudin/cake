@@ -135,3 +135,57 @@
     }
   }
 }
+
+@media (max-width: $tablet) {
+  .cake-category {
+    padding: 10px 15px;
+
+    &__title {
+      font-size: 14px;
+      line-height: 14px;
+    }
+    &__counter {
+      font-size: 11px;
+      line-height: 11px;
+    }
+    &__to-all {
+      display: none;
+    }
+    &--size--m {
+      width: 280px;
+      height: 120px;
+    }
+    &--size--l {
+      width: 280px;
+      height: 120px;
+    }
+    &--theme--classics {
+      background-size: cover;
+      margin-bottom: 10px;
+
+    }
+    &--theme--wedding {
+      background-size: cover;
+      margin-bottom: 10px;
+
+    }
+    &--theme--mousse {
+      background-size: cover;
+      margin-bottom: 10px;
+    }
+    &--theme--formen {
+      background-size: cover;
+      margin-bottom: 10px;
+    }
+    &--theme--forwoman {
+      background-size: cover;
+      margin-bottom: 10px;
+
+    }
+    &--theme--forchild {
+      background-size: cover;
+      margin-bottom: 10px;
+
+    }
+  }
+}

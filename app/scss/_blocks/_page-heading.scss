@@ -72,6 +72,7 @@
       width: $tablet;
 			padding: 100px 45px 140px;
 			box-sizing: border-box;
+      position: relative;
 
       &::after {
         content: "";
@@ -98,6 +99,68 @@
 
       font-size: 36px;
 
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .page-heading {
+    z-index: 0;
+
+    &__wrapper {
+      width: $mobile;
+      padding: 170px 20px 30px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+
+      &::after {
+        content: "";
+        // z-index: 0;
+        position: absolute;
+        top: -115px;
+        left: 0;
+        // left: 500px;
+        // width: 520px;
+        height: 330px;
+        background-image: url(../img/heading_cake.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        // background-size: contain;
+      }
+    }
+    &__title {
+      width: 100%;
+      padding-bottom: 15px;
+
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+    &__slogan {
+      padding-bottom: 20px;
+
+      font-size: 22px;
+      text-align: center;
+    }
+    &__to-cake {
+      order: 5;
+      width: 225px;
+      margin-top: 30px;
+      align-self: center;
+    }
+    &__description-advantages {
+      order: 4;
+      display: flex;
+      width: $mobile;
+      flex-wrap: wrap;
+      // flex-direction: column;
+      padding-top: 0;
+    }
+    &__description-advantage {
+      flex-basis: 300px;
+      margin-right: 0;
+      margin-bottom: 10px;
     }
   }
 }

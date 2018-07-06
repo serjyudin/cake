@@ -34,3 +34,12 @@
     }
   }
 }
+
+@media (max-width: $tablet) {
+  .order-steps {
+
+    &__step {
+      padding: 10px 20px;
+    }
+  }
+}
