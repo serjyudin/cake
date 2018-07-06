@@ -2,12 +2,33 @@
 $(document).ready(function(){
   $('.single-slide').slick({
     dots: true,
+    responsive: [{
+
+        breakpoint: 768,
+        settings: {
+          dots: false,
+          arrows: false,
+        }
+      }]
   });
   $('.multiple-slide').slick({
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
-    // dots: true,
+    responsive: [{
+
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          dots: false,
+          arrows: false,
+        }
+      }]
+  });
+  $('.lolka').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+
   });
 });
 
