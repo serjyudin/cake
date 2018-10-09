@@ -55,3 +55,24 @@
     }
   }
 }
+@media (max-width: $container-d) {
+  .quote {
+    width: 280px;
+    padding-top: 25px;
+
+    &::before {
+      margin-left: -20px;
+      width: 40px;
+      height: 20px;
+      background-image: url(../img/ill_quote_tablet.png);
+    }
+    &__text {
+      font-size: 13px;
+      line-height: 18px;
+      margin-bottom: 20px;
+    }
+    &__autograph {
+      width: 65px;
+    }
+  }
+}

@@ -15,7 +15,7 @@
   }
   &__title {
     margin: 0;
-
+    flex-basis: 100%;
     font-family: $alter-font;
     font-size: 40px;
     margin-bottom: 30px;
@@ -87,6 +87,46 @@
       width: 317px;
       height: 317px;
 
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .about-us {
+    display: flex;
+
+    &__wrapper {
+      width: $mobile;
+    }
+    &__title {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    &__text {
+      order: 2;
+    }
+    &__img {
+      width: 158px;
+      height: 158px;
+      order: 1;
+      margin: 0 auto;
+      margin-bottom: 15px;
+    }
+    &__quote {
+      order: 3;
+      margin-top: 50px;
+    }
+    &__subtitle {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+    &__slogan {
+      font-size: 14px;
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 10px;
     }
   }
 }
