@@ -66,3 +66,34 @@
     }
   }
 }
+
+@media (max-width: $tablet) {
+  .review {
+    flex-direction: column;
+    &__img {
+      width: 90px;
+    }
+    &__text {
+      padding: 0;
+      text-align: center;
+    }
+    &__title {
+
+      margin: 0;
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 15px;
+    }
+    &__subtitle {
+
+      margin-bottom: 15px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+    &__description {
+
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+}
