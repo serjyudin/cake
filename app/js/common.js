@@ -91,6 +91,7 @@ function bxslider() {
       touchEnabled: true,
     });
     review.reloadSlider({
+      slideWidth: 240,
       controls: false,
       touchEnabled: true,
     });
