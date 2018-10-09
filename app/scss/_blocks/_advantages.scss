@@ -68,3 +68,25 @@
     }
   }
 }
+
+@media (max-width: $tablet) {
+  .advantages {
+
+    &__wrapper {
+      width: $mobile;
+      margin-bottom: 30px;
+    }
+    &__title {
+      font-size: 24px;
+      &--left {
+        margin-top: 20px;
+        text-align: left;
+      }
+    }
+    &__subtitle {
+      font-size: 22px;
+      line-height: 26px;
+      margin-bottom: 10px;
+    }
+  }
+}

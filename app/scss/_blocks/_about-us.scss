@@ -94,7 +94,7 @@
 @media (max-width: $tablet) {
   .about-us {
     display: flex;
-
+    margin-bottom: 30px;
     &__wrapper {
       width: $mobile;
     }
