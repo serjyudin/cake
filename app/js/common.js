@@ -53,16 +53,8 @@ function bxslider() {
       moveSlides: 1,
       touchEnabled: true,
     });
-  } else if (768 < width < 1220) {
+  } else if (width > 768 && width < 1220) {
     size.destroySlider();
-    // size.reloadSlider({
-    //   // slideWidth: 158,
-    //   controls: false,
-    //   // moveSlides: 1,
-    //   minSlides: 4,
-    //   maxSlides: 4,
-    //   // touchEnabled: true,
-    // });
     filling.reloadSlider({
       slideWidth: 470,
       controls: false,
@@ -86,29 +78,29 @@ function bxslider() {
     });
   } else if (width < 768) {
     filling.reloadSlider({
+      slideWidth: 240,
       controls: false,
       touchEnabled: true,
     });
     multi.reloadSlider({
       controls: false,
       randomStart: true,
-      // minSlides: 1,
-      // maxSlides: 1,
-      // moveSlides: 1,
+      minSlides: 1,
+      maxSlides: 1,
+      moveSlides: 1,
       slideWidth: 195,
+      touchEnabled: true,
+    });
+    size.reloadSlider({
+      slideWidth: 158,
+      controls: false,
+      moveSlides: 1,
+      minSlides: 1,
+      maxSlides: 1,
       touchEnabled: true,
     });
     review.reloadSlider({
       controls: false,
-      touchEnabled: true,
-    });
-    size.reloadSlider({
-      controls: false,
-      randomStart: true,
-      minSlides: 1,
-      maxSlides: 1,
-      moveSlides: 1,
-      // slideWidth: 195,
       touchEnabled: true,
     });
   }
