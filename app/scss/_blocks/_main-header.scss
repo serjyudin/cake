@@ -39,13 +39,13 @@
 // @media (min-width: $tablet) and (max-width: $container-d)
 @media (max-width: $container-d) {
 	.main-header {
-		min-width: $tablet;
+		// min-width: $tablet;
 		height: 60px;
-
+		width: 100%;
 		margin: 0;
 		background-color: $white;
 		background-size: cover;
-
+		box-sizing: border-box;
 		&__wrapper {
 			width: $tablet;
 			padding: 10px 45px;
@@ -63,6 +63,7 @@
 		width: 100%;
 		min-width: $mobile;
 		height: 40px;
+		box-sizing: border-box;
 
 		&__wrapper {
 			width: $mobile;

@@ -43,3 +43,20 @@
     }
   }
 }
+@media (max-width: $tablet) {
+  .description-advantages {
+
+    &__img {
+      align-self: center;
+      max-width: 45px;
+
+    }
+    &__title {
+      font-size: 15px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

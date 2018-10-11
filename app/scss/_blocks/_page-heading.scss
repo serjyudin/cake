@@ -14,19 +14,19 @@
     background-position: 485px 30px, 445px 200px, 295px 370px;
     background-size: auto, auto, auto, auto;
 
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 500px;
-      width: 920px;
-      height: 920px;
-      background-image: url(../img/heading_cake.png);
-      background-repeat: no-repeat;
-      background-position: 0 top;
-      background-size: contain;
-      // overflow: visible;
-    }
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   top: 0;
+    //   left: 500px;
+    //   width: 920px;
+    //   height: 920px;
+    //   background-image: url(../img/heading_cake.png);
+    //   background-repeat: no-repeat;
+    //   background-position: 0 top;
+    //   background-size: contain;
+    //   // overflow: visible;
+    // }
   }
   &__title {
 
@@ -74,18 +74,18 @@
 			box-sizing: border-box;
       position: relative;
 
-      &::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 500px;
-        width: 520px;
-        // height: 520px;
-        background-image: url(../img/heading_cake.png);
-        background-repeat: no-repeat;
-        background-position: 0 20px;
-        background-size: contain;
-      }
+      // &::after {
+      //   content: "";
+      //   position: absolute;
+      //   top: 0;
+      //   left: 500px;
+      //   width: 520px;
+      //   // height: 520px;
+      //   background-image: url(../img/heading_cake.png);
+      //   background-repeat: no-repeat;
+      //   background-position: 0 20px;
+      //   background-size: contain;
+      // }
     }
     &__title {
       position: relative;
@@ -113,21 +113,22 @@
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
+      margin: 0 auto;
 
-      &::after {
-        content: "";
-        // z-index: 0;
-        position: absolute;
-        top: -115px;
-        left: 0;
-        // left: 500px;
-        // width: 520px;
-        height: 330px;
-        background-image: url(../img/heading_cake.png);
-        background-repeat: no-repeat;
-        background-position: 0 0;
-        // background-size: contain;
-      }
+      // &::after {
+      //   content: "";
+      //   // z-index: 0;
+      //   position: absolute;
+      //   top: -115px;
+      //   left: 0;
+      //   // left: 500px;
+      //   // width: 520px;
+      //   height: 330px;
+      //   background-image: url(../img/heading_cake.png);
+      //   background-repeat: no-repeat;
+      //   background-position: 0 0;
+      //   // background-size: contain;
+      // }
     }
     &__title {
       width: 100%;
@@ -152,13 +153,14 @@
     &__description-advantages {
       order: 4;
       display: flex;
-      width: $mobile;
+      // width: $mobile;
       flex-wrap: wrap;
       // flex-direction: column;
       padding-top: 0;
+
     }
     &__description-advantage {
-      flex-basis: 300px;
+      flex-basis: 280px;
       margin-right: 0;
       margin-bottom: 10px;
     }
