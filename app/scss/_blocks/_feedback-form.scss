@@ -53,3 +53,34 @@
     }
   }
 }
+@media (max-width: $container-d) {
+  .feedback-form {
+    flex-basis: 280px;
+
+    &__title {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    &__input {
+      width: 280px;
+      padding: 15px 15px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+
+      font-size: 14px;
+      color: $text;
+
+      background-color: $white;
+      border: none;
+      &--question {
+
+        height: 80px;
+      }
+    }
+    &__button {
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 180px;
+    }
+  }
+}
