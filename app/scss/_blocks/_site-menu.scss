@@ -121,12 +121,12 @@
 		}
 		&--footer {
 			display: flex;
-			justify-content: flex-start;
-			flex-wrap: wrap;
+			flex-direction: column;
+			margin-bottom: 15px;
 		}
 		&__item {
 			&--footer {
-				margin: 0 25px;
+				margin: 0;
 				height: 25px;
 			}
 		}
