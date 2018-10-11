@@ -60,3 +60,30 @@
     }
   }
 }
+@media (max-width: $tablet) {
+  .order {
+    background-image: none;
+    background-position: center bottom;
+    min-width: $mobile;
+    &__wrapper {
+      width: $mobile;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    &__title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    &__step-item {
+      margin: 0 15px 25px 15px;
+    }
+    &__step-list {
+      width: 375px;
+      margin: 25px 0;
+      background: rgba(220, 45, 55, .8);
+      border-radius: 5px;
+    }
+  }
+}

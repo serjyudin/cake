@@ -41,3 +41,20 @@
     }
   }
 }
+@media (max-width: $tablet) {
+  .step-list {
+
+    &__number {
+      font-size: 35px;
+      padding-right: 0;
+    }
+    &__title {
+      font-size: 15px;
+      margin: 0;
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
